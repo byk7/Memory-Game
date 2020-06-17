@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Memory Game!</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1>Images Memory Game</h1>
+    <h2>Match the images below!</h2>
+      <span class="move-counter" id="moveCounter"></span>
+      <span class="timer" id="timer">0 mins 0 secs</span>
+      <button class="restart-btn" id="restartBtn" onClick="startGame()" aria-label="restart game">↻</button>
+    <table class="game-board">
+      <tbody class="game-grid">
+       <tr class="game-grid-row">
+          <td class="game-card">
+            <img class="game-card-img" src="/game-card-imgs/desert.jpeg" alt="img1">
+          </td>
+          <td class="game-card">
+            <img class="game-card-img" src="/game-card-imgs/ocean.jpg" alt="img2">
+          </td>
+          <td class="game-card">
+            <img class="game-card-img" src="/game-card-imgs/sailboats.jpeg" alt="img3">
+          </td>
+          <td class="game-card">
+            <img class="game-card-img" src="/game-card-imgs/sunrise.jpeg" alt="img4">
+          </td>
+          <td class="game-card">
+            <img class="game-card-img" src="/game-card-imgs/tree.jpeg" alt="img5">
+          </td>
+        </tr>
+        <tr class="game-grid-row">
+          <td class="game-card">
+            <img class="game-card-img" src="/game-card-imgs/desert.jpeg" alt="img1">
+          </td>
+          <td class="game-card">
+            <img class="game-card-img" src="/game-card-imgs/ocean.jpg" alt="img2">
+         </td>
+          <td class="game-card">
+            <img class="game-card-img" src="/game-card-imgs/sailboats.jpeg" alt="img3">
+         </td>
+          <td class="game-card">
+            <img class="game-card-img" src="/game-card-imgs/sunrise.jpeg" alt="img4">
+          </td>
+          <td class="game-card">
+            <img class="game-card-img" src="/game-card-imgs/tree.jpeg" alt="img5">
+          </td>
+        </tr>
+      </tbody>               
+    </table>
+    <script src="script.js"></script>
+  </body>
+</html>
+
